@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Particle
+  m_Shader: {fileID: 4800000, guid: 976518cf3ee62c14796f95cd65b605e7, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ColTex:
+        m_Texture: {fileID: 2800000, guid: 9adf2e6dd05d8844f94d0d70e0dcd402, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormTex:
+        m_Texture: {fileID: 2800000, guid: 912b2047bd82aa14da76eeb98ce2b458, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PosTex:
+        m_Texture: {fileID: 2800000, guid: 9fffdbbc18d74104b8a2fdf236200360, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UvTex:
+        m_Texture: {fileID: 2800000, guid: 17535bf655a74324cb315a9a06f18777, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Glossiness: 0.795
+    - _Metallic: 0.53
+    - _T: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
